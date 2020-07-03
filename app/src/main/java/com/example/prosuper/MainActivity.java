@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         superWebView = findViewById(R.id.myWebView);
         superWebView2 = findViewById(R.id.myWebView2);
-        superWebView2.setVisibility(View.GONE);
+//        superWebView2.setVisibility(View.GONE);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             WebView.setWebContentsDebuggingEnabled(true);
         }
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 //        String newUA = "WeMesh/4.0.6 (Linux;Android 9) ExoPlayerLib/1.5.9";
 //        superWebView.getSettings().setUserAgentString(newUA);
 //        superWebView.loadUrl("https://www.enjoymoviesyourway.net/tvapp");
-        superWebView.loadUrl("https://c23fae2afced.ngrok.io/");
+        superWebView.loadUrl("https://5e5bf5eeded4.ngrok.io");
         superWebView2.loadUrl("https://www.netflix.com");
 //        superWebView.loadUrl("https://www.netflix.com");
 //        superWebView.getSettings().setPluginState(WebSettings.PluginState.ON);

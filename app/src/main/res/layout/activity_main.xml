@@ -27,11 +27,11 @@
     <WebView
         android:id="@+id/myWebView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="355dp" />
 
     <WebView
         android:id="@+id/myWebView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="355dp" />
 
 </LinearLayout>
