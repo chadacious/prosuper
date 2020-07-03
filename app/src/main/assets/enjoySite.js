@@ -1,9 +1,10 @@
 (function () {
     window.enjoy = {
-        makeMSLRequest: () => {
-            console.log("Sending MSL Request to Netflix: " + window.location.origin);
-            Android.showToast(window.location.origin);
+        onMSLResponse: (response) => {
+            console.log("Got MSL Response " + window.location.origin);
+            console.log("my responz is: ", response);
+            window.postMessage(response);
         }
     };
-    console.log("enjoyNetflix.js injected: " + window.location.origin);
+    console.log("enjoySite.js injected: " + window.location.origin);
 })();
