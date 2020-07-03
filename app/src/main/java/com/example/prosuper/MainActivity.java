@@ -47,16 +47,21 @@ public class MainActivity extends AppCompatActivity {
 //        String newUA = "Mozilla/5.0 (X11; U; Linux armv7l like Android; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/533.2+ Kindle/3.0+";
 //        String newUA = "Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U1 Build/PPR1.180610.011)";
 //        String newUA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.45 Safari/535.19";
+
 //        String newUA = "Mozilla/5.0 (X11; CrOS armv7l 11895.95.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.125 Safari/537.36";
-//        String newUA = "Mozilla/5.0 (X11; CrOS armv7l 13020.82.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.112 Safari/537.36";
+
+        //        String newUA = "Mozilla/5.0 (X11; CrOS armv7l 13020.82.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.112 Safari/537.36";
 //        String newUA = "Mozilla/5.0 (X11; CrOS armv7l 6946.86.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36";
-//        String newUA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36";
+        String newUA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36";
         //        String newUA = "Mozilla/5.0 (Linux; Android 5.1; AFTS Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/41.99900.2250.0242 Safari/537.36";
 //        String newUA = "Mozilla/5.0 (Linux; Android 5.1.1; Nexus 5 Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.65 Mobile Safari/537.36";
+
 //        String newUA = "WeMesh/4.0.6 (Linux;Android 9) ExoPlayerLib/1.5.9";
+//        String newUA = "com.netflix.mediaclient/200217 (Linux; U; Android Q; en-US; SDK_GOOGLE_ATV_X86; Build/MPI24.65-33.1-2-2-11; Cronet/58.0.3029.83)";
 //        superWebView.getSettings().setUserAgentString(newUA);
+        superWebView2.getSettings().setUserAgentString(newUA);
 //        superWebView.loadUrl("https://www.enjoymoviesyourway.net/tvapp");
-        superWebView.loadUrl("https://5e5bf5eeded4.ngrok.io");
+        superWebView.loadUrl("https://64c86fe24758.ngrok.io");
         superWebView2.loadUrl("https://www.netflix.com");
 //        superWebView.loadUrl("https://www.netflix.com");
 //        superWebView.getSettings().setPluginState(WebSettings.PluginState.ON);
